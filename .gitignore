@@ -1,0 +1,41 @@
+# phpstorm project files
+.idea
+.idea/*
+.idea/webServers.xml
+idea_bak
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Storem "
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+tests/_output/*
+tests/_support/_generated
+
+protected/extensions/phpSpider/log
+git.sh
+
+dataconvert/*
+framework/*
+#protected/runtime/*
+protected/.htaccess
+protected/yiic.php
+.idea/webServers.xml
+
