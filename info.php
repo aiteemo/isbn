@@ -17,7 +17,7 @@ $m = M();
 
 session_start();
 if (!$_SESSION['info']) {
-    header("Location::index.php");
+    header("Location:index.php");
 }
 $info = $_SESSION['info'];
 ?>

@@ -3,9 +3,9 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="bb8271b8-c515-4e0d-854e-f39e7cf3427c" name="149.129.48.181" url="http://149.129.48.181">
-        <fileTransfer host="149.129.48.181" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/share/nginx/html/isbn" accessType="SFTP" keyPair="true">
+        <fileTransfer host="149.129.48.181" port="22" privateKey="$USER_HOME$/.ssh/id_rsa2" rootFolder="/usr/share/nginx/html/isbn" accessType="SFTP" keyPair="true">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>

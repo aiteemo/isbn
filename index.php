@@ -78,7 +78,7 @@ if ($_GET && isset($_GET['isbn'])) {
     <div class="row">
         <div class="col-md-12 order-md-1">
             <h4 class="mb-3">ISBN 图书编码查询</h4>
-            <form class="needs-validation">
+            <form class="needs-validation" method="get">
                 <div class="row">
                     <div class="col-md-12 mb-3">
                         <input type="text" class="form-control" id="ISBN" placeholder="<?php echo $err; ?>" value=""
@@ -89,7 +89,7 @@ if ($_GET && isset($_GET['isbn'])) {
                     </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">查询</button>
             </form>
         </div>
     </div>
