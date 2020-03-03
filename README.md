@@ -8,4 +8,4 @@
 # 版本要求
 php 7.0+
 swoole 4.0+
-phpexcel
+phpexcel3.0+
