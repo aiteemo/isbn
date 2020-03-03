@@ -10,3 +10,4 @@ php 7.0+
 swoole 4.0+
 phpexcel3.0+
 1
+2
